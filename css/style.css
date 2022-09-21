@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head-section{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.header{
+    
+    height: 280px;
+    background-color: #85d0cc;
+    
+}
+.nav{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: white;
+    
+}
+.logo img{
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+}
+.navbar ul{
+list-style-type: none;
+margin-right: 30px;
+margin-top: 20px;
+}
+.navbar ul li{
+float: left;
+}
+.navbar ul li a{
+text-decoration: none;
+padding: 10px 15px;
+font-size: 20px;
+color: white;
+font-weight: 600;
+}
+.navbar ul li a:hover{
+color: white;
+background-color: #094d49;
+font-weight: 700;
+}
+.textp{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.textp h2{
+font-size: 28px;
+color: white;
+background-color: rgb(15, 15, 15);
+width: 280px;
+text-align: center;
+margin: auto;
+border-radius: 30px;
+padding: 10px;
+}
+.textp p{
+    margin-top: 40px;
+    font-size: 22px;
+
+}
+
+/* second section */
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main1{
+    width: 50%;
+}
+.main2{
+    width: 50%;
+      
+}
+.main2 img{
+    width: 480px;
+    height: 360px;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 1px 10px 1px black;
+    
+}
+.main1 h2{
+    text-align: center;
+    font-size: 45px;
+}
+.main1 p{
+    margin-top: 25px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* footer start */
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-img img{
+    width: 60%;
+}
+.footer-text{
+    width: 25%;
+}
+.footer-text p{
+    width: 280px;
+}
+.footer-menu h2{
+    font-size: 25px;
+    background-color: #85d0cc;
+    padding: 8px 10px;
+    border-radius: 12px;
+
+}
+.footer-menu ul{
+    list-style-type: none;
+    margin-top: 25px;
+    
+}
+.footer-menu ul li{
+    line-height: 50px;
+    
+    
+}
+.footer-menu ul li a{
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+color: black;
+
+}
+.footer-menu ul li a:hover{
+    background-color: #85d0cc;
+    ;
+color: black;
+padding: 8px 3px;
+border-radius: 5px;
+
+}
+.footer-image img{
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+    margin-top: 15px;
+}
+.fot-text{
+    background-color: rgb(102, 180, 180);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+}
